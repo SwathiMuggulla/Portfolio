@@ -1,0 +1,72 @@
+.links{
+    float:right;
+    width:50%;
+    display:inline-block;
+    height:20%;
+
+}
+div{
+    float:left;
+    background-color:darkgrey;
+    color:black;
+    width:50%;
+    box-sizing:border-box;
+    text-align:center;
+}
+a,.name{
+    text-decoration-line: none;
+    display:inline-block;
+    padding:30px;
+}
+.welcome{
+    background-color:grey;
+    text-align:center;
+    width:100%;
+    padding:30px;
+    color:black;
+}
+.about{
+    width:100%;
+    padding:30px;
+    background-color: darkgrey;
+}
+
+
+img{
+    float:right;
+}
+.projects{
+    color:black; 
+    background-color:grey;
+    text-align:center;
+    width:50%;
+    padding:30px;
+}
+.project{
+    color:black; 
+    background-color:grey;
+    text-align:center;
+    width:100%;
+    padding:30px;
+}
+h3,h4{
+    text-align:center;
+}
+ul li{
+    list-style-type:none;
+}
+.internship{
+        width:100%;
+        padding:30px;
+        background-color: darkgrey;
+}
+/* .contact{
+    float:left;
+    background-color:darkgrey;
+    color:black;
+    width:33.3%;
+    box-sizing:border-box;
+} */
+table{
+    background-color:grey;
+}
