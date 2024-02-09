@@ -1,9 +1,21 @@
-.links{
+body{
+    margin:0;
+}
+*{
+    text-align:justify;
+}
+/* .links{
     float:right;
     width:50%;
     display:inline-block;
     height:20%;
+    
 
+} */
+div a:hover{
+    display:inline-block;
+    color:white;
+    background-color: black;
 }
 div{
     float:left;
@@ -52,14 +64,34 @@ img{
 h3,h4{
     text-align:center;
 }
-ul li{
-    list-style-type:none;
-}
+
 .internship{
         width:100%;
         padding:30px;
         background-color: darkgrey;
 }
-table{
+/* .contact{
+    float:left;
+    background-color:darkgrey;
+    color:black;
+    width:33.3%;
+    box-sizing:border-box;
+} */
+.contact{
     background-color:grey;
+    box-sizing: border-box;
+    width:100%;
+}
+
+#contact{
+    text-align: center;
+    width:100%;
+    gap:10px;
+}
+.details{
+    background-color:grey;
+    box-sizing: border-box;
+    width:100%;
+    display:flex;
+    justify-content:space-around;        
 }
